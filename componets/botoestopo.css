@@ -1,4 +1,4 @@
-.bottontop {
+/*.bottontop {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: white;
@@ -8,4 +8,44 @@
     left: 8%;
     text-decoration: none;
     padding-left: 30px;
+}
+
+.bottontop:active {
+    color: black;
+}*/
+.ulo {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%,-50);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.ulo .liu {
+    list-style: none;
+}
+.bottontop {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #979797;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+/*.ulo .liu a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #979797;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+*/
+.active .bottontop {
+    color:black;
 }

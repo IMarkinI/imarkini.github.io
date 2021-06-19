@@ -23,19 +23,27 @@
                 <div id="bar3" class="bar"></div>
             </div>
             <ul class="nav" id="nav">
-                <li><a class="col" href="#">HOME</a></li>
-                <li><a class="col" href="#">CARDÁPIO</a></li>
-                <li><a class="col" href="#">CUPONS</a></li>
-                <li><a class="col" href="#">AGENDAR</a></li>
+                <li><a class="col" href="#">H O M E</a></li>
+                <li><a class="col" href="#">C A R D Á P I O</a></li>
+                <li><a class="col" href="#">C U P O NS</a></li>
+                <li><a class="col" href="#">A G E N D A R</a></li>
             </ul>
         </div>
         <div class="menu-bg" id="menu-bg"></div>
         <nav>
-            <a class="bottontop" href="">Sobre</a>
-            <a class="bottontop" href="">Contatos</a>
-            <a class="bottontop" href="">Compre agora</a> 
+            <ul class="ulo">
+               <li class="active"><a class="bottontop" href="#">Sobre</a></li>
+                <li class="liu"><a class="bottontop" href="#">Contatos</a></li>
+                <li class="liu"><a class="bottontop" href="#">Compre agora</a></li>
+            </ul>
         </nav>
     </header>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+            $(document).on('click', 'ul li', function(){
+                $(this).addClass('active').siblings().removeClass('active')
+            })
+    </script>
 </body>
 </html>
