@@ -47,7 +47,7 @@
     width: 0;
     height: 0;
     margin: 20px 20px ;
-    background: radial-gradient(circle,#fff, #d8d4d6);
+    background:#000 ;
 
     transition: 0.3s ease;
 }
