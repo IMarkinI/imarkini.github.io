@@ -48,7 +48,8 @@
     width: 0;
     height: 0;
     padding: 0px 0px;
-    background:red ;
+    background:#000 ;
+    opacity: 50%;
 
     transition: 0.3s ease;
 }
